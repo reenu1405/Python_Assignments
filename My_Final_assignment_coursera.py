@@ -29,7 +29,7 @@ with open('apple.json') as json_file:
 # apple_info['country']
 print(apple_info['country'])
 
-# sing the period parameter we can set how far back from the present to get data.
+# Using the period parameter we can set how far back from the present to get data.
 # The options for period are 1 day (1d), 5d, 1 month (1mo) , 3mo, 6mo, 1 year (1y), 2y, 5y, 10y, ytd, and max.
 
 apple_share_price_data = apple.history(period="max")
